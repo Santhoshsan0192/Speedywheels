@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Cars Website</title>
+    <link rel="stylesheet" href="sty.css">
+    <style>
+        
+        .c{
+            background-image: linear-gradient(rgb(12, 12, 13),rgba(20, 20, 25, 0.825));
+            
+    width: 330px;
+    height: 290px;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 600px;
+    font-size: 20px;
+    font-weight:bolder;
+    color: rgb(244, 247, 244);
+    box-shadow: 6.1px 12.2px 12.2px hsl(0deg 0% 0% / 0.31);
+        }
+        #fname,#lname,#email,#msg{
+            width: 100%;
+            height: 25px;
+        } 
+        
+            </style>
+</head>
+<body class="cbg">
+    <header>
+        <h1>Contact Us</h1><br>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cars.html">Cars</a></li>
+                <li><a href="vintage.html">Vintage Cars</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 style="margin-left: 678px;padding-top: 110px;">Contact Us</h1>
+        <div class="c">
+        
+            <form name="f"> 
+                <label for="name">First Name:</label><br>
+                <input type="text" id="fname"  placeholder="First Name" width="200px" required><br>
+
+                <label for="name">Last Name:</label><br>
+                <input type="text" id="lname"  placeholder="Last Name" required><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email"  required><br>
+
+                <label for="msg">Message:</label><br>
+                <textarea id="msg" rows="4" required></textarea><br>
+
+                <input style="margin-left:130px ; margin-top: 10px;" type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+    <script>
+        alert("Thank you for your response")
+    </script>
+    
+    <footer>
+        
+    </footer>
+</body>
+</html>
+
